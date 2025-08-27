@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+  padding-top: 56px; 
+}
+
+.navbar{
+   background: linear-gradient(90deg, #4e54c8, #8f94fb);
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+}
+
+.hero h1, .hero p {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+}
+
+section h2 {
+  font-weight: 600;
+  color: #4e54c8;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-7px);
+}
+
+footer {
+  background: #222;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
