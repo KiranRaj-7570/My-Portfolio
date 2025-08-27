@@ -35,6 +35,9 @@ section h2 {
   transform: translateY(-7px);
 }
 
+input[type="text"], input[type="email"], #message {
+  border: 1px solid #aaaaaa;
+}
 footer {
   background: #222;
 }
